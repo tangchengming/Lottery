@@ -70,7 +70,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.delegate = self;
-    
+    NSLog(@"首页");
     [self addScrollView];
     
     
